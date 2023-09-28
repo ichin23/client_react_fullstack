@@ -1,0 +1,103 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background-color: #487ab4;
+    height: 100vh;
+   width: 100vw;
+}
+
+
+#card{
+    padding: 40px 50px;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616 ;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    height: 6vh;
+    margin-bottom: 10px;
+    padding:1px 5px;
+    background-color: #333333;
+    border: solid transparent 2px;
+    color: white;
+    width: 100%;
+}
+
+input:focus{
+    border: solid #487ab4 2px
+}
+
+#divPassword{
+    width: 100%;
+    position:relative;
+}
+
+#divPassword input{
+    width: 100%;
+}
+#divPassword label{
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    right: 5px;
+    bottom: 30%;
+}
+
+
+#form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-bottom: 12px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    width: 70%;
+    height: 70%;
+    color: white;
+    transition: width 0.5s, height 0.5s;
+}
+
+button.login{
+    background-color: #265183;
+}
+
+button.cadastro{
+    border: solid 2px #265183;
+    background-color: transparent;
+}
+
+button:hover{
+    width: 73%;
+    cursor: pointer;
+}
+
+#divButton{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
